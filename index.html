@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-MEN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbit&family=Oxanium:wght@300;400;700&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="src/imagens/logo.svg" alt="logo dos xmen">
+    </header>
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">SELECIONE UM PERSONAGEM</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ciclope dispara raios de seus olhos. Esses raios não são Lasers, nem radiação, nem raios de calor. O raio vermelho rubi é um feixe gravitacional, altamente destrutivo.">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean-Grey" data-description="Jean-Grey é telepata e telecinética. Foi escolhida como hospedeira da Força Fênix, um ser cósmico com poderes incríveis.">
+                    <img src="src/imagens/card-jean-grey.jpg" alt="jean-grey">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Wolverine, o homem fera. Possui uma série de mutações: sentidos apurados, garras nas mãos; maior força, resistência, agilidade; e seu maior trunfo: fator de cura acelerada. Wolverine ainda teve seu esqueleto e garras enxertados com 'Adamantium', um metal indestrutível.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="wolverine">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="Vampira pode com seu toque roubar a força de outros seres. Memórias, habilidades, força vital, ela rouba tudo. Um acidente com outra super-heroína, capitã Marvel, fez com que ela roubasse permanentemente super força e habilide de voar. É maquina que fala?">
+                    <img src="./src/imagens/card-vampira.jpg" alt="vampira">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Tempestade tem o incrível poder de controlar a atmosfera. Todo o clima está sobre seu comando. Pode voar, liberar raios, fazer chover ou nevar.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="tempestade">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Noturno, além de várias mutações físicas aparentes, possui força e agilidades sobre-humanas, e a habilidade de se teletransportar.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="noturno">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Kitty Pryde tem o poder incrível de atravessar qualquer parede ou obstáculo, e caminhar no ar. Ela tem um dragão alienígena de estimação.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="lince-negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="Magneto, o mestre do magnetismo. Controlar metais? Por favor... O magnetismo age sobre todos os corpos. Nem ele mesmo sabe a real extensão de seu poder.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="magneto">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="personagem selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">CICLOPE</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ciclope dispara raios de seus olhos. Esses raios não são Lasers, nem radiação, nem raios de calor. O raio vermelho rubi é um feixe gravitacional, altamente destrutivo.</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
